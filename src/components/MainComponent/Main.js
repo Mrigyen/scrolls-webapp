@@ -945,15 +945,6 @@ export class _MainComponent extends React.Component {
                 variant="outlined"
                 color="secondary"
                 className={classes.createRandomPromptButton}
-                onClick={this.startNewText}
-                size={"small"}
-              >
-                New
-              </Button>
-              <Button
-                variant="outlined"
-                color="secondary"
-                className={classes.createRandomPromptButton}
                 onClick={this.clearText}
                 size={"small"}
               >
