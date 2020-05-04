@@ -1010,14 +1010,6 @@ export class _MainComponent extends React.Component {
           </span>
           <Fragment>
             <Button
-              variant="outlined"
-              color="secondary"
-              className={classes.button}
-              onClick={this.setModal("tutorialModalOpen")}
-            >
-              Tutorial
-            </Button>
-            <Button
               variant={aiButtonStyle}
               color="primary"
               className={classes.button}
