@@ -945,15 +945,6 @@ export class _MainComponent extends React.Component {
                 variant="outlined"
                 color="secondary"
                 className={classes.createRandomPromptButton}
-                onClick={this.startNewText}
-                size={"small"}
-              >
-                New
-              </Button>
-              <Button
-                variant="outlined"
-                color="secondary"
-                className={classes.createRandomPromptButton}
                 onClick={this.clearText}
                 size={"small"}
               >
@@ -1005,15 +996,6 @@ export class _MainComponent extends React.Component {
         <Grid item>
           {this.renderSelectModelContainer()}
           <span className={classes.copiedContainer}>
-            <Button
-              variant="outlined"
-              color="secondary"
-              className={classes.createRandomPromptButton}
-              onClick={this.startNewText}
-              size={"small"}
-            >
-              New
-            </Button>
             <CopyToClipboard text={text}>
               <Button
                 variant="outlined"
