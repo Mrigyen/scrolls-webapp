@@ -996,6 +996,17 @@ export class _MainComponent extends React.Component {
         <Grid item>
           {this.renderSelectModelContainer()}
           <span className={classes.copiedContainer}>
+            
+            //<Button
+            //  variant="outlined"
+            //  color="secondary"
+            //  className={classes.createRandomPromptButton}
+            //  onClick={this.startNewText}
+            //  size={"small"}
+            //>
+            //  Random
+            //</Button>
+            
             <CopyToClipboard text={text}>
               <Button
                 variant="outlined"
