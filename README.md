@@ -1,6 +1,6 @@
 # scrolls
 
-# How to use
+# How to use on a Linux System
 
 ```bash
 # Install yarn package manager
@@ -15,3 +15,19 @@ yarn install
 # Start the web app server
 yarn start
 ```
+
+# How to use on a Windows system (not recommended)
+
+Open admistrative shell
+
+Paste the following in the shell:
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install yarn
+git clone https://github.com/Mrigyen/scrolls-webapp
+cd scrolls-webapp
+yarn install
+yarn start
+```
+
