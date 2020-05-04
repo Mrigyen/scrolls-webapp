@@ -78,10 +78,7 @@ export const HowToSelectPromptBottomSection = (
 export const HowToSelectPromptSection = (
   <Fragment>
     <Typography variant="h5" color={"secondary"} display={"inline"}>
-      Step 2. Choose a prompt to add{" "}
-      <span role="img" aria-label="party">
-        🎉
-      </span>
+      Step 2. Choose a suggestion.{" "}
     </Typography>
   </Fragment>
 );
