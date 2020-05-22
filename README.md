@@ -1,5 +1,15 @@
 # scrolls
 
+WARNING: We have shutdown the remote server running the transformer model instance used to provide predictions. The rest is up here for demonstrative purposes only.
+
+---
+
+Scrolls is an AI powered text editor that uses Natural Language Generation to predict what comes next in the text given previously written text as the prompt. Think of it as autocompletion for general prose.
+
+The source code given above is for the web app that acts as the driver.
+
+---
+
 # How to use on a Linux System
 
 ```bash
